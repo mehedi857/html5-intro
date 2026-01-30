@@ -16,3 +16,20 @@ footer{
 section h2{
     background-color: gold;
 }
+label{
+    color: rgb(2, 1, 1);
+    background-color: rgb(28, 154, 177);
+}
+input{
+    background-color: bisque;
+}
+legend{
+    font-size: larger;
+    color: brown;
+    font-style: italic;
+    background-image: url();
+}
+#hh{
+    background-color: cadetblue;
+    text-align: center;
+}
