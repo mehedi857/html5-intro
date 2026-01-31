@@ -1,73 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table html</title>
+    <link rel="stylesheet" href="styles/nav.css">
     <style>
-        h2{
+        h2 {
             color: aquamarine;
-           black;
+            black;
         }
-        td , th{
+
+        td,
+        th {
             font-size: larger;
-           border: 1px solid rebeccapurple;
-           padding: 10px;
+            border: 1px solid rebeccapurple;
+            padding: 10px;
         }
-        table{
+
+        table {
             border-collapse: collapse;
-            
+
         }
-    
-     
     </style>
+    
+
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>no</th>
-                <th>name</th>
-                <th>compny</th>
-                <th>salary</th>
-            </tr>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+              <ul class="dropdown">
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="table.html">Table</a></li>
+              </ul>  
+                
+            </ul>    
            
+            
+        </nav>
+    </header>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>no</th>
+                    <th>name</th>
+                    <th>compny</th>
+                    <th>salary</th>
+                </tr>
 
-        </thead>
-        <tbody>
-             <h2>table html</h2>
-            <tr>
-                <td>1</td>
-                <td>marks</td>
-                <td>facebook</td>
-                <td>$1000</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>marks</td>
-                <td>facebook</td>
-                <td>$1000</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>marks</td>
-                <td>facebook</td>
-                <td>$1000</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>marks</td>
-                <td>facebook</td>
-                <td>$1000</td>
-            </tr>
 
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="4">total cost = 100000</td>
-            </tr>
+            </thead>
+            <tbody>
+                <h2>table html</h2>
+                <tr>
+                    <td>1</td>
+                    <td>marks</td>
+                    <td>facebook</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>marks</td>
+                    <td>facebook</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>marks</td>
+                    <td>facebook</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>marks</td>
+                    <td>facebook</td>
+                    <td>$1000</td>
+                </tr>
 
-        </tfoot>
-    </table>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">total cost = 100000</td>
+                </tr>
+
+            </tfoot>
+        </table>
+    </main>
 </body>
+
 </html>
